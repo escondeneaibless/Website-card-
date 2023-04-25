@@ -1,0 +1,191 @@
+/* Для экранов с шириной до 2560px */
+@media (min-width: 3740px){
+  .welcome {
+    width: 1800px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+  }
+  div.btw-welcome {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 1441px){
+  .welcome {
+    width: 1300px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+  }
+  div.btw-welcome {
+    margin-bottom: 100px;
+  }
+}
+/* Для экранов с шириной до 1140px */
+@media (max-width: 1246.67px) {
+  .welcome {
+    margin-top: 300px;
+    padding: 100px 0;
+    width: 50%;
+  }
+  p.mission-text {
+    line-height: 30px;
+  }
+}
+/* Для экранов с шириной до 768px */
+@media (max-width: 768px) {
+  html {
+    width: 800px;
+  }
+  .header-previu-photo  {
+    width:800px
+  }
+  .title .treveling-title {
+    border-bottom: 0;
+    height: 70px;
+    margin: 0 60px;
+    
+  }
+  .my-number {
+    white-space: nowrap;
+  }
+} 
+/* Для экранов с шириной до 425px */
+@media (max-width: 425px) {
+  html {
+    width: 194%;
+  }
+
+  .title .treveling-title {
+    border: none;
+    height: 70px;
+  }
+  .who-i,
+  .my-number {
+    margin: 0 16%;
+  }
+  p.my-number {
+    white-space: nowrap;
+  }
+  .previu {
+    padding: 20px 100px;
+    row-gap: 0px;
+  }
+  .header-previu-photo {
+    width: 194%;
+    height: 430px;
+    border-bottom: 30px solid gray;
+  }
+  .welcome {
+    margin-top: 40px;
+    padding: 0 100px;
+  }
+  main .btw-welcome {
+    width: 425px;
+  }
+  .my-work-bg {
+    margin: 100px 17%;
+  }
+  #work__image {
+    margin-left: 2%;
+  }
+}
+
+@media (max-width: 320px) {
+
+  html {
+    width: 171%;
+  }
+  header {
+    height: auto;
+  }
+  .header-previu-photo {
+    width: 171%;
+    height: 270px;
+    border-bottom: 15px solid gray;
+  }
+  .previu {
+    font-size: 20px;
+    padding: 30px 100px;
+    height: auto;
+    row-gap: 20px;
+  }
+  .header-portfolio {
+    font-size: 35px;
+    margin: 0;
+  }
+  .who-i,
+  .my-number {
+    font-size: 16px;
+    margin: 0 0;
+  }
+  .discount {
+    font-size: 10px;
+  }
+  .application {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .welcome {
+    width: auto;
+    height: 300px;
+    padding: 10px;
+    display: inline;
+
+  }
+  .main-greeting {
+    font-size: 20px;
+    border: 0;
+    margin-bottom: 0;
+    margin-top: 30px;
+  }
+  .my-photo {
+    width: 200px;
+    height: 300px;
+    margin-left: 13%;
+  }
+  .photo-map {
+    width: 200px;
+    height: 300px;
+  }
+  h3.my-mission {
+    font-size: 30px;
+  }
+  p.mission-text {
+    font-size: 24px;
+    line-height: 24px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    width: 80%;
+  }
+  div.btw-welcome {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  main .application {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+  }
+    /*Конец MAIN */
+  .card-services {
+    width: 546px;
+    height: 546px;
+  }
+  .my-work-bg {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+  #work__image {
+    margin: 40px;
+    margin-left: 25%;
+  }
+  .my-word-contain {
+    margin-bottom: 120px;
+    padding-right: 20px;
+  }
+}
+
